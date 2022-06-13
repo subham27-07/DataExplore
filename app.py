@@ -3,7 +3,7 @@
 from io import BytesIO
 from pyxlsb import open_workbook as open_xlsb
 
-from linecache import cache
+
 import streamlit as st
 import pandas as pd 
 import numpy as np
@@ -14,8 +14,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.figure_factory as ff  # example from streamlit give it a try
-import base64
-import re
+
 #####################################################
 from IPython.display import HTML, display
 

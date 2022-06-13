@@ -10,7 +10,7 @@ import numpy as np
 import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
-from wordcloud import WordCloud, STOPWORDS
+
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.figure_factory as ff  # example from streamlit give it a try
@@ -44,7 +44,7 @@ import pandas as pd
 # from nltk.corpus import stopwords
 # from sklearn.feature_extraction.text import CountVectorizer
 import matplotlib.pyplot as plt
-import altair as alt
+
 import time
 import setuptools
 import pickle
@@ -52,10 +52,7 @@ import itertools
 from collections import Counter
 # from pyvis.network import Network
 ###############################Import LIWC############
-import networkx as nx
-# import moralizer
-import regex as re
-import altair as alt
+
 # from transformers import GPT2Tokenizer
 
 # from typing import NamedTuple

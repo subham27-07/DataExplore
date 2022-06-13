@@ -239,7 +239,7 @@ def emotionAnalysis():
     # df['clean_text'][:4].apply(get_emotion_label)
     # df['emotion'] = df['clean_text'].apply(get_emotion_label)
 
-    df5=pd.read_csv('emotion.csv')
+#     df5=pd.read_csv('emotion.csv')
 
     
 
@@ -293,7 +293,7 @@ def hateAnalysis():
     # df['clean_text'][:2].apply(get_hate_label)
     # df['hate_Speech'] = df['clean_text'].apply(get_hate_label)
 
-    df4=pd.read_csv('hatespeech.csv')
+#     df4=pd.read_csv('hatespeech.csv')
 
     hate_count = df['hate_Speech'].value_counts()
     hate_count = pd.DataFrame({'hate_Speech':hate_count.index,'Tweets':hate_count.values})
@@ -418,7 +418,7 @@ def TopiModelling():
     # t=model.visualize_hierarchy(top_n_topics=100,height=1500)
 
 
-    df4=pd.read_csv('topic.csv')
+#     df4=pd.read_csv('topic.csv')
     st.image("top100topic.png")
     st.image("newplot (7).png")
 
@@ -472,7 +472,7 @@ def Sentiment():
 
     # df.to_csv('sentiment.csv', encoding='utf-8') # saving df to csv
 
-    df3=pd.read_csv('sentiment.csv')
+#     df3=pd.read_csv('sentiment.csv')
 
     sentiment_count = df['label'].value_counts()
     sentiment_count = pd.DataFrame({'Sentiments':sentiment_count.index,'Tweets':sentiment_count.values})

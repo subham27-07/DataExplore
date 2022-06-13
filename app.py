@@ -660,9 +660,10 @@ def selector(select):
     elif select == 'Hastag Analysis':
         with st.beta_expander("Expand Me to see the Hastag Analysis"):
             st.markdown('<p style="font-family:sans-serif;text-align: left; color:Black;font-size: 18px;">Hastag Analysis is used to measure the social media reach of hashtag campaign and its mentions. To measure social media engagement around your hashtag. To discover social media sentiment around a hashtag.</p>', unsafe_allow_html=True)
-            result=st.button('Analyze',key=8)
-            if result:
-                hastag()
+            hastag()
+#             result=st.button('Analyze',key=8)
+#             if result:
+            
         ind=selectOptions.index('Hastag Analysis')
         selectOptions.pop(ind)
         addSelect()

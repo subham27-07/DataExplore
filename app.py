@@ -165,7 +165,7 @@ x=df2
 
 
 
-def _max_width_(prcnt_width:int = 80):
+def _max_width_(prcnt_width:int = 100):
     max_width_str = f"max-width: {prcnt_width}%;"
     st.markdown(f""" 
                 <style> 

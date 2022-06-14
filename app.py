@@ -422,7 +422,7 @@ def TopiModelling():
 
 #     df4=pd.read_csv('topic.csv')
     st.image("top100topic.png")
-    st.image("newplot (7).png")
+    st.image("hierarchy.png")
 
     # # model.get_topic_freq()
     # x=df4.topics(0)
